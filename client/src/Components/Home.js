@@ -8,6 +8,7 @@ import Banner from './Home/Banner';
 import MidSlide from './Home/MidSlide';
 import MidSection from './Home/MidSection';
 import Slide from './Home/Slide';
+import Footer from './Header/Footer';
 
 import { useSelector, useDispatch } from 'react-redux'; // hooks
 import { getProducts as listProducts } from '../redux/actions/productActions';
@@ -40,25 +41,27 @@ const Home = () => {
                     timer={false} 
                     multi={true} 
                 />
-                <Slide
+                {/* <Slide
                     data={products} 
                     title='Suggested Items'
                     timer={false} 
                     multi={true} 
-                />
+                /> */}
                 <Slide
                     data={products} 
                     title='Top Selection'
                     timer={false} 
                     multi={true} 
                 />
-                <Slide
+                {/* <Slide
                     data={products} 
                     title='Recommended Items'
                     timer={false} 
                     multi={true} 
-                />
+                /> */}
             </Component>
+      <Footer/>
+
         </>
     )
 }

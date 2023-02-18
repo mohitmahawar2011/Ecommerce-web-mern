@@ -9,6 +9,7 @@ import DetailView from './Components/ItemDetails/DetailView';
 import TemplateProvider from './templates/TemplateProvider';
 import ContextProvider from './context/ContextProvider';
 import Cart from './Components/Cart/Cart';
+// import Footer from './Components/Header/Footer';
 
 function App() {
   return (
