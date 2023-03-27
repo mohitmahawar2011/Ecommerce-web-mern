@@ -9,6 +9,7 @@ import DetailView from './Components/ItemDetails/DetailView';
 import TemplateProvider from './templates/TemplateProvider';
 import ContextProvider from './context/ContextProvider';
 import Cart from './Components/Cart/Cart';
+import ViewAllItems from './Components/ItemDetails/ViewAllItems';
 // import Footer from './Components/Header/Footer';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <Route path= '/' element={<Home />} />
               <Route path= '/cart' element={<Cart />} />
               <Route path= '/product/:id' element={<DetailView />} />
+              <Route path= '/product/views' element={<ViewAllItems />} />
             </Routes>
           </Box>
         </BrowserRouter>

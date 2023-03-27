@@ -87,7 +87,8 @@ const MultiSlide = ({ data, timer, title }) => {
                                 <Countdown date={Date.now() + 5.04e+7} renderer={renderer} />
                         </Timer>
                 }
-                <ViewAllButton variant="contained" color="primary">View All</ViewAllButton>
+                
+                <ViewAllButton variant="contained" color="primary"> <Link to={'product/views'} style={{'text-decoration': 'none'}}>View All</Link></ViewAllButton>
             </Deal>
             <Divider />
             <Carousel
