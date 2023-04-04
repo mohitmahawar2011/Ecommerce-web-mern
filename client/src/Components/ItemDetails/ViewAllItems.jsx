@@ -34,6 +34,7 @@ export default function ViewAllItems() {
     console.log(products);
 
   return (<>
+    <Typography variant='h3' style={{marginLeft:"5rem", marginTop:"5rem"}}>All Products</Typography>
     <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
     {
         products.map(temp =>(<>

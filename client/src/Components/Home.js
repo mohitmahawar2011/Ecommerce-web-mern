@@ -8,8 +8,8 @@ import Banner from './Home/Banner';
 import MidSlide from './Home/MidSlide';
 import MidSection from './Home/MidSection';
 import Slide from './Home/Slide';
-import Footer from './Header/Footer';
-
+// import Footer from './Header/Footer';
+import Footer from './Home/Footer';
 import { useSelector, useDispatch } from 'react-redux'; // hooks
 import { getProducts as listProducts } from '../redux/actions/productActions';
 
